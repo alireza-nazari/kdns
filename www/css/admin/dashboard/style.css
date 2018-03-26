@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#nav {
+	width: 100%;
+	height: 40px;
+	background-color: #ccc;
+
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+nav .nav-bar ul li {
+	list-style: none;
+	display: inline;
+}
+nav .nav-bar ul li a {
+	padding: 13px;
+	position: relative;
+	top: 10px;
+
+}
+.clear {clear: both;}
+.sub-container {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.side-nav {width: 20%}
+.side-content {width: 80%}
+#tablelist #users {
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+  position: relative;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#tablelist #users tr {
+ padding: 5px;
+}
+#tablelist #users tr:nth-of-type(odd) {
+	background-color: #eee;
+}
+#tablelist #users tr .userid{
+	text-align: center;
+}
+#tablelist #users tr th {
+ padding: 5px;
+ background-color: #ccc;
+ border-bottom: 1px solid #ddd;
+}
+#tablelist #users tr td {
+ padding: 5px;
+}
